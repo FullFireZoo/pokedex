@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="mainTitle">Pokédex</h1>
+        
+    </header>
+    <main>
+        
+        <div class="container">
+            <input id="email" type="email" placeholder="E-mail" required>
+            <p id="emailError" class="error"></p>
+            <input id="password" type="password" placeholder="Password" required>
+            <p id="passwordError" class="error"></p>
+            <button id="connexion">Connexion</button>
+        </div>
+        <img src="images/pokedex2.png" alt="pokedex">
+    </main>
+    
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    
+</body>
+<script src="../auth.js"></script>
+<script src="index.js"></script>
+</html>
